@@ -1,0 +1,17 @@
+[auth.generic_oauth]
+enabled = true
+
+name = "External Authentication"
+client_id = 
+client_secret = 
+scopes = []
+auth_url =  base-url/authorization
+token_url =  base-url/token
+api_url = base-url/userinfo
+
+[server]
+root_url = 
+
+[users]
+auto_assign_org_id = 2 ; Demo Org ID
+auto_assign_org_role = Viewer
